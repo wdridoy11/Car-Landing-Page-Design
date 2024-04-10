@@ -7,6 +7,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="./style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    
+
 </head>
 <body>
     <!-- hero section -->
@@ -329,11 +334,128 @@
                     <button class="px-10 py-3 bg-[#75D4EC] rounded-full text-white font-medium mt-5">View More</button>
                 </div>
             </div>
-            <div>
-
+        </div>
+        <div>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img class="rounded-3xl h-[800px] object-cover" src="./image/slider-1.jpg" alt="car">
+                  </div>
+                  <div class="swiper-slide">
+                    <img class="rounded-3xl h-[800px] object-cover" src="./image/slider-2.jpg" alt="car">
+                  </div>
+                  <div class="swiper-slide">
+                    <img class="rounded-3xl h-[800px] object-cover" src="./image/slider-3.jpg" alt="car">
+                  </div>
+                  <div class="swiper-slide">
+                    <img class="rounded-3xl h-[800px] object-cover" src="./image/slider-4.jpg" alt="car">
+                  </div>
+                  <div class="swiper-slide">
+                    <img class="rounded-3xl h-[800px] object-cover" src="./image/slider-5.png" alt="car">
+                  </div>
+                  <div class="swiper-slide">
+                    <img class="rounded-3xl h-[800px] object-cover" src="./image/slider-6.jpg" alt="car">
+                  </div>
+                  <div class="swiper-slide">
+                    <img class="rounded-3xl h-[800px] object-cover" src="./image/slider-7.jpg" alt="car">
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
             </div>
         </div>
     </section>
 
+    <!-- Testimonial -->
+    <section class="pt-20 bg-[#E4EFF2]">
+        <div class="max-w-7xl mx-auto">
+            <div>
+                <div class="text-center">
+                    <h1 class="text-4xl text-[#3D4449] font-bold mb-2">What Our Customer <span class="text-[#7BCFE1]">Say</span></h1>
+                    <p class="text-lg font-medium text-[#A6A5A4]">Testimonial</p>
+                </div>
+            </div>
+            <div>
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="bg-white p-10 rounded-xl text-center">
+                              <img class="w-32 h-32 object-cover rounded-full mx-auto -mt-24 mb-10 ring-8 ring-[#E4EFF2]" src="./image/man-1.jpg" alt="">
+                               <p class="text-lg font-medium text-[#A6A5A4]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae alias quis non ipsum. Sapiente ab itaque error? Ad deserunt iste, fuga id repellendus perferendis, quos blanditiis, maxime sapiente cum minus.</p>
+                            </div>
+                        </div>
+                      <div class="swiper-slide">
+                          <div class="bg-white p-10 rounded-xl text-center">
+                            <img class="w-32 h-32 object-cover rounded-full mx-auto -mt-24 mb-10 ring-8 ring-[#E4EFF2]" src="./image/man-2.png" alt="">
+                             <p class="text-lg font-medium text-[#A6A5A4]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae alias quis non ipsum. Sapiente ab itaque error? Ad deserunt iste, fuga id repellendus perferendis, quos blanditiis, maxime sapiente cum minus.</p>
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="bg-white p-10 rounded-xl text-center">
+                          <img class="w-32 h-32 object-cover rounded-full mx-auto -mt-24 mb-10 ring-8 ring-[#E4EFF2]" src="./image/man-3.jpg" alt="">
+                           <p class="text-lg font-medium text-[#A6A5A4]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae alias quis non ipsum. Sapiente ab itaque error? Ad deserunt iste, fuga id repellendus perferendis, quos blanditiis, maxime sapiente cum minus.</p>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="py-20 footer">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid md:grid-cols-4 gap-10">
+                <div class="col-span-2">
+                    <img class="w-20" src="./image/logo.png" alt="">
+                    <p class="text-base w-9/12 mt-3 font-medium text-[#55504c]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae alias quis non ipsum. Sapiente ab itaque error? Ad deserunt iste, fuga id repellendus perferendis, quos blanditiis, maxime sapiente cum minus.</p>
+                </div>
+                <div class="col-span-1">
+                    <h3 class="text-xl font-bold mt-5 text-[#2D333A] mb-3">USEFUL LINKS</h3>
+                    <ul>
+                        <li class="mb-3"><a class="text-base font-medium text-[#55504c]" href="#">Home</a></li>
+                        <li class="mb-3"><a class="text-base font-medium text-[#55504c]" href="#">Gallery</a></li>
+                        <li class="mb-3"><a class="text-base font-medium text-[#55504c]" href="#">Rental Deals</a></li>
+                    </ul>
+                </div>
+                <div class="col-span-1">
+                    <h3 class="text-xl font-bold mt-5 text-[#2D333A] mb-3">CONTACT US</h3>
+                    <div class="flex gap-3 mb-3">
+                        <div>
+                            <i class="fa-solid fa-location text-xl text-[#7BCFE1]"></i>
+                        </div>
+                        <div>
+                            <p class="text-base font-medium text-[#55504c]">4516, NM 10th, Florida, USA</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-3 mb-3">
+                        <div>
+                            <i class="fa-solid fa-envelope text-xl text-[#7BCFE1]"></i>
+                        </div>
+                        <div>
+                            <p class="text-base font-medium text-[#55504c]">ridoysharif30@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-3">
+                        <div>
+                            <i class="fa-solid fa-phone text-xl text-[#7BCFE1]"></i>
+                        </div>
+                        <div>
+                            <p class="text-base font-medium text-[#55504c]">+8801722824160</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="mt-20">
+            <div class="text-center mt-10">
+                <p class="text-[#55504c]">&copy; All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>   
+<script src="./app.js"></script>
 </body>
 </html>

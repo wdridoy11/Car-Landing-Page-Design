@@ -9,3 +9,42 @@ body{
     width: 100%;
     /* height: 100vh; */
 }
+.swiper.swiper-initialized.swiper-horizontal.swiper-backface-hidden {
+    padding:100px 200px;
+}
+.swiper-button-prev,
+.swiper-button-next {
+    background: #7BCFE1;
+    color: #fff !important;
+    width: 65px  !important;
+    height: 65px !important;
+    border-radius: 50px;
+}
+.swiper-button-next:after,.swiper-button-prev:after{
+    font-size:20px !important;
+}
+.swiper-pagination{
+    position: relative !important;
+    margin-top: 30px;
+}
+.swiper-horizontal>.swiper-pagination-bullets,.swiper-pagination-bullets.swiper-pagination-horizontal,.swiper-pagination-custom,.swiper-pagination-fraction {
+    bottom: 75px !important;
+    top: var(--swiper-pagination-top,auto);
+    left: 0;
+    width: 100%
+}
+span.swiper-pagination-bullet {
+    width: 15px;
+    height: 15px;
+    background: #fff;
+}
+
+
+/* footer */
+.footer{
+    background:linear-gradient(#ffffffe0,#ffffffe0), url(./image/map-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
