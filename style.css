@@ -4,8 +4,6 @@ body{
 }
 .hero{
     background: url(./image/hero-02.png);
-    /* background: url(./image/hero-01.png); */
-    /* background: url(./image/slider-1.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
